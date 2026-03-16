@@ -20,7 +20,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2025-01-03'
+modified: '2026-03-16'
 position: Consuming
 description: >-
   The U.S. Agency for Global Media (USAGM) is an independent federal agency that
@@ -36,5 +36,5 @@ description: >-
   board of governors.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
