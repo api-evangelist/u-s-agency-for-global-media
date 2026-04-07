@@ -4,8 +4,7 @@ url: >-
 apis:
   - aid: u-s-agency-for-global-media:u-s-agency-for-global-media
     name: U.S. Agency for Global Media
-    tags:
-      - API
+    tags: []
     humanURL: https://www.usagm.gov/
     properties:
       - url: https://www.usagm.gov/
