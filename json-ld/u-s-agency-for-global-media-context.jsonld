@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "usagm": "https://www.usagm.gov/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "MediaNetwork": "usagm:MediaNetwork",
+    "BroadcastProgram": "usagm:BroadcastProgram",
+    "InternetFreedomProject": "usagm:InternetFreedomProject",
+    "PressFreedomReport": "usagm:PressFreedomReport",
+    "AudienceResearch": "usagm:AudienceResearch",
+
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "title": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "repositoryUrl": {
+      "@id": "schema:codeRepository",
+      "@type": "@id"
+    },
+    "languages": {
+      "@id": "usagm:languages",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "targetRegions": {
+      "@id": "usagm:targetRegions",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "weeklyReach": {
+      "@id": "usagm:weeklyReach",
+      "@type": "xsd:integer"
+    },
+    "broadcastHours": {
+      "@id": "usagm:broadcastHours",
+      "@type": "xsd:integer"
+    },
+    "language": {
+      "@id": "dcterms:language",
+      "@type": "xsd:string"
+    },
+    "network": {
+      "@id": "usagm:network",
+      "@type": "xsd:string"
+    },
+    "format": {
+      "@id": "usagm:format",
+      "@type": "xsd:string"
+    },
+    "frequency": {
+      "@id": "usagm:frequency",
+      "@type": "xsd:string"
+    },
+    "fundingAmount": {
+      "@id": "usagm:fundingAmount",
+      "@type": "xsd:decimal"
+    },
+    "status": {
+      "@id": "usagm:status",
+      "@type": "xsd:string"
+    },
+    "type": {
+      "@id": "dcterms:type",
+      "@type": "xsd:string"
+    },
+    "identifier": {
+      "@id": "dcterms:identifier",
+      "@type": "xsd:string"
+    },
+    "datePublished": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "version": {
+      "@id": "schema:version",
+      "@type": "xsd:string"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: "U.S. Agency for Global Media"
+  description: >-
+    Vocabulary covering USAGM's media networks, broadcasting operations,
+    internet freedom programs, and press freedom advocacy domains.
+  created: "2026-05-03"
+  modified: "2026-05-03"
+
+operational:
+  apis: []
+  resources:
+    - name: broadcast-content
+      description: >-
+        News programs, audio, video, and digital content produced by USAGM
+        networks for international audiences.
+      actions:
+        - produce
+        - publish
+        - distribute
+    - name: internet-freedom-tool
+      description: >-
+        Open-source software tools funded by OTF to help users in censored
+        environments access the open internet.
+      actions:
+        - fund
+        - publish
+        - download
+    - name: press-freedom-report
+      description: >-
+        Reports and data documenting press freedom conditions in countries
+        where USAGM networks operate.
+      actions:
+        - publish
+        - download
+    - name: media-network
+      description: >-
+        One of USAGM's six media entities (VOA, RFE/RL, RFA, OCB, MBN, OTF),
+        each with distinct mission, language coverage, and target geography.
+      actions:
+        - operate
+        - fund
+    - name: audience-research
+      description: >-
+        Surveys and digital analytics measuring weekly reach, language
+        penetration, and audience engagement across USAGM networks.
+      actions:
+        - conduct
+        - publish
+
+  actions:
+    - name: publish
+      description: Release news content, data, or reports to the public
+      httpMethod: GET
+      pattern: read
+    - name: distribute
+      description: Deliver broadcast or digital content to target audiences
+      httpMethod: GET
+      pattern: read
+    - name: fund
+      description: Provide grants or contracts to support media or technology projects
+      httpMethod: POST
+      pattern: write
+    - name: download
+      description: Retrieve data files, reports, or tool packages
+      httpMethod: GET
+      pattern: read
+    - name: conduct
+      description: Execute research, surveys, or data collection activities
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    media:
+      - name: MediaNetwork
+        description: >-
+          A USAGM-overseen broadcasting entity with specific language, geography,
+          and editorial mission.
+        properties:
+          - name
+          - description
+          - languages
+          - targetRegions
+          - weeklyReach
+          - broadcastHours
+          - url
+      - name: BroadcastProgram
+        description: >-
+          A recurring radio, television, or digital program produced by a USAGM
+          network.
+        properties:
+          - title
+          - language
+          - network
+          - format
+          - frequency
+          - description
+      - name: InternetFreedomProject
+        description: >-
+          An OTF-funded open-source project supporting internet freedom.
+        properties:
+          - name
+          - description
+          - type
+          - url
+          - repositoryUrl
+          - fundingAmount
+          - status
+
+  parameters:
+    filters:
+      - name: language
+        description: Language code for filtering content or network coverage
+        type: string
+      - name: network
+        description: USAGM network identifier (VOA, RFERL, RFA, OCB, MBN, OTF)
+        type: string
+      - name: region
+        description: Geographic region for filtering network operations
+        type: string
+    identifiers:
+      - name: programId
+        description: Unique identifier for a broadcast program
+        type: string
+      - name: projectId
+        description: Unique identifier for an OTF-funded project
+        type: string
+
+  enums:
+    networks:
+      - Voice of America
+      - Radio Free Europe/Radio Liberty
+      - Radio Free Asia
+      - Office of Cuba Broadcasting
+      - Middle East Broadcasting Networks
+      - Open Technology Fund
+    contentTypes:
+      - News
+      - Feature
+      - Analysis
+      - Documentary
+      - Digital
+    freedomToolTypes:
+      - Circumvention
+      - Encryption
+      - Anonymization
+      - Digital Safety
+      - Secure Communication
+
+  authentication: []
+
+capability:
+  workflows:
+    - name: media-freedom-operations
+      file: ""
+      description: >-
+        Research, produce, and distribute international news and internet
+        freedom tools in support of global press freedom.
+      apis: []
+      tools: 0
+      personas:
+        - Journalist
+        - Media Researcher
+        - Internet Freedom Advocate
+      domains:
+        - Media
+        - Press Freedom
+        - Internet Freedom
+
+  personas:
+    - id: journalist
+      name: Journalist
+      description: >-
+        International reporter or editor working for a USAGM network to
+        produce independent news for restricted-access audiences.
+      workflows:
+        - media-freedom-operations
+
+    - id: media-researcher
+      name: Media Researcher
+      description: >-
+        Analyst studying audience reach, press freedom conditions, and
+        media ecosystem health in USAGM target countries.
+      workflows:
+        - media-freedom-operations
+
+    - id: internet-freedom-advocate
+      name: Internet Freedom Advocate
+      description: >-
+        Developer or activist using OTF-funded tools to bypass internet
+        censorship and protect digital communications.
+      workflows:
+        - media-freedom-operations
+
+    - id: policymaker
+      name: Policymaker
+      description: >-
+        U.S. government official or Congressional oversight body evaluating
+        USAGM broadcasting effectiveness and funding.
+      workflows:
+        - media-freedom-operations
+
+  domains:
+    - name: Media
+      description: International broadcasting, digital content production, and news distribution
+    - name: Press Freedom
+      description: Advocacy, monitoring, and support for independent journalism worldwide
+    - name: Internet Freedom
+      description: Anti-censorship tools, circumvention technology, and digital safety programs
+
+  namespaces: []
+  binds: []
+
+crossReference:
+  - resource: media-network
+    operations: []
+    workflows:
+      - media-freedom-operations
+    personas:
+      - Journalist
+      - Media Researcher
+      - Policymaker
+  - resource: internet-freedom-tool
+    operations: []
+    workflows:
+      - media-freedom-operations
+    personas:
+      - Internet Freedom Advocate
