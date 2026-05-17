@@ -68,7 +68,7 @@ tags:
   - International
   - Press Freedom
   - Internet Freedom
-type: Contract
+kind: contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
@@ -162,7 +162,7 @@ common:
   - type: Vocabulary
     url: >-
       https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/vocabulary/u-s-agency-for-global-media-vocabulary.yaml
-  - type: JSON-LD
+  - type: JSONLD
     url: >-
       https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/json-ld/u-s-agency-for-global-media-context.jsonld
 maintainers:
