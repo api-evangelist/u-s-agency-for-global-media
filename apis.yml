@@ -86,6 +86,8 @@ description: >-
   than 3,000 hours of original programming per week in regions where access to
   a free press is limited.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/united-states-agency-for-global-media
   - type: Website
     url: https://www.usagm.gov/
   - type: About
