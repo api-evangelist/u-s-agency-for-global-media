@@ -86,6 +86,10 @@ description: >-
   than 3,000 hours of original programming per week in regions where access to
   a free press is limited.
 common:
+  - type: VulnerabilityDisclosure
+    url: security/u-s-agency-for-global-media-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/u-s-agency-for-global-media-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/united-states-agency-for-global-media
   - type: Website
@@ -167,6 +171,8 @@ common:
   - type: JSONLD
     url: >-
       https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/json-ld/u-s-agency-for-global-media-context.jsonld
+  - url: https://www.usagm.gov/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
