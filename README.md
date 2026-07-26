@@ -17,11 +17,6 @@ The U.S. Agency for Global Media (USAGM) is an independent federal agency that o
 
 ## APIs
 
-### U.S. Agency for Global Media
-
-The United States Agency for Global Media (USAGM) is an independent federal agency that oversees a network of media organizations providing news and information to audiences around the world in support of freedom and democracy. USAGM oversees Voice of America, Radio Free Europe/Radio Liberty, Radio Free Asia, Office of Cuba Broadcasting, Middle East Broadcasting Networks, and the Open Technology Fund. Together these entities reach approximately 427 million people weekly in 64 languages.
-
-**Human URL:** [https://www.usagm.gov/](https://www.usagm.gov/)
 
 #### Tags:
 
@@ -33,11 +28,6 @@ The United States Agency for Global Media (USAGM) is an independent federal agen
 - [About](https://www.usagm.gov/who-we-are/)
 - [Networks and Outlets](https://www.usagm.gov/networks/)
 
-### USAGM Press Freedom
-
-USAGM press freedom data and resources published on GitHub.
-
-**Human URL:** [https://github.com/usagm/usagm-press-freedom](https://github.com/usagm/usagm-press-freedom)
 
 #### Tags:
 

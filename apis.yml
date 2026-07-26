@@ -2,43 +2,6 @@ aid: u-s-agency-for-global-media
 url: >-
   https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/apis.yml
 apis:
-  - aid: u-s-agency-for-global-media:u-s-agency-for-global-media
-    name: U.S. Agency for Global Media
-    tags:
-      - Federal Government
-      - Media
-      - Broadcasting
-      - International
-    humanURL: https://www.usagm.gov/
-    properties:
-      - url: https://www.usagm.gov/
-        type: Documentation
-      - url: https://www.usagm.gov/who-we-are/
-        type: About
-      - url: https://www.usagm.gov/networks/
-        type: Documentation
-        title: Networks and Outlets
-    description: >-
-      The United States Agency for Global Media (USAGM) is an independent
-      federal agency that oversees a network of media organizations providing
-      news and information to audiences around the world in support of freedom
-      and democracy. USAGM oversees Voice of America (VOA), Radio Free
-      Europe/Radio Liberty (RFE/RL), Radio Free Asia (RFA), Office of Cuba
-      Broadcasting (OCB), Middle East Broadcasting Networks (MBN), and the
-      Open Technology Fund (OTF). Together these entities reach approximately
-      427 million people weekly in 64 languages.
-  - aid: u-s-agency-for-global-media:usagm-press-freedom
-    name: USAGM Press Freedom
-    tags:
-      - Press Freedom
-      - Media
-      - Open Data
-    humanURL: https://github.com/usagm/usagm-press-freedom
-    properties:
-      - url: https://github.com/usagm/usagm-press-freedom
-        type: GitHubRepository
-    description: >-
-      USAGM press freedom data and resources published on GitHub.
   - aid: u-s-agency-for-global-media:open-technology-fund
     name: Open Technology Fund
     tags:
@@ -69,10 +32,22 @@ tags:
   - Press Freedom
   - Internet Freedom
 kind: contract
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/u-s-agency-for-global-media.png
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2026-05-03'
+modified: '2026-07-25'
 position: Consuming
 description: >-
   The U.S. Agency for Global Media (USAGM) is an independent federal agency
@@ -173,6 +148,8 @@ common:
       https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/json-ld/u-s-agency-for-global-media-context.jsonld
   - url: https://www.usagm.gov/feed/
     type: Blog
+  - type: News
+    url: https://github.com/usagm/usagm-press-freedom
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
