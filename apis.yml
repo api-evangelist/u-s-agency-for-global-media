@@ -8,6 +8,11 @@ apis:
       - Internet Freedom
       - Privacy
       - Security
+      - Open-Source
+    tags_raw:
+      - Internet Freedom
+      - Privacy
+      - Security
       - Open Source
     humanURL: https://www.opentech.fund/
     properties:
@@ -25,6 +30,13 @@ apis:
       internet.
 name: U.S. Agency for Global Media
 tags:
+  - Federal-Government
+  - Media
+  - Broadcasting
+  - International
+  - Press Freedom
+  - Internet Freedom
+tags_raw:
   - Federal Government
   - Media
   - Broadcasting
