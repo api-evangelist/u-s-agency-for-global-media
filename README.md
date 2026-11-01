@@ -1,4 +1,4 @@
-# U.S. Agency for Global Media (u-s-agency-for-global-media)
+# U.S. Agency for Global Media
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,105 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The U.S. Agency for Global Media (USAGM) is an independent federal agency that oversees a network of international media organizations providing news and information to audiences around the world in support of freedom and democracy. These media outlets include Voice of America (VOA), Radio Free Europe/Radio Liberty (RFE/RL), Radio Free Asia (RFA), Office of Cuba Broadcasting (OCB), Middle East Broadcasting Networks (MBN), and the Open Technology Fund (OTF). Together these entities reach approximately 427 million people weekly in 64 languages, producing more than 3,000 hours of original programming per week in regions where access to a free press is limited.
+The U.S. Agency for Global Media (USAGM) is an independent federal agency that oversees a network of international media organizations aimed at providing news and information to audiences around the world in support of freedom and democracy. These media outlets include Voice of America (VOA), Radio Free Europe/Radio Liberty (RFE/RL), Radio Free Asia (RFA), Office of Cuba Broadcasting (OCB), Middle East Broadcasting Networks (MBN), and the Open Technology Fund (OTF). Together these entities operate in over 64 languages and reach approximately 427 million people weekly, producing more than 3,000 hours of original programming per week in regions where access to a free press is limited.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/apis.yml)
+**Areas:** Federal Government · Media · Broadcasting · International · Press Freedom · Internet Freedom
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## U.S. Agency for Global Media on APIs.io
 
-## Tags:
+Everything profiled for U.S. Agency for Global Media is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/u-s-agency-for-global-media/](https://apis.io/providers/u-s-agency-for-global-media/)** — or go straight to one of the APIs or properties below.
 
- - Federal Government, Media, Broadcasting, International, Press Freedom, Internet Freedom
+### APIs (1)
 
-## Timestamps
+- [Open Technology Fund](https://apis.io/apis/u-s-agency-for-global-media/open-technology-fund/) — The Open Technology Fund (OTF) is a U.S. government-funded independent nonprofit that supports the development of open-source internet freedom technologies…
 
-- **Created:** 2024-11-21
-- **Modified:** 2026-05-03
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### JSON-LD (1)
 
-#### Tags:
+Linked-data contexts for the provider's vocabulary.
 
- - Federal Government, Media, Broadcasting, International
+- [U S Agency For Global Media Context](https://apis.io/jsonld/u-s-agency-for-global-media/u-s-agency-for-global-media-context/)
 
-#### Properties
+#### Vocabulary (1)
 
-- [Documentation](https://www.usagm.gov/)
-- [About](https://www.usagm.gov/who-we-are/)
-- [Networks and Outlets](https://www.usagm.gov/networks/)
+The provider's domain terms, defined.
 
+- [U S Agency For Global Media Vocabulary](https://apis.io/vocabularies/u-s-agency-for-global-media/u-s-agency-for-global-media-vocabulary/)
 
-#### Tags:
+#### Security (2)
 
- - Press Freedom, Media, Open Data
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [U S Agency For Global Media Domain Security](https://apis.io/security/u-s-agency-for-global-media/u-s-agency-for-global-media-domain-security/)
+- [U S Agency For Global Media Vulnerability Disclosure](https://apis.io/security/u-s-agency-for-global-media/u-s-agency-for-global-media-vulnerability-disclosure/)
 
-- [GitHubRepository](https://github.com/usagm/usagm-press-freedom)
+#### Plans and pricing (1)
 
-### Open Technology Fund
+Published plans, tiers and prices.
 
-The Open Technology Fund (OTF) is a U.S. government-funded independent nonprofit that supports the development of open-source internet freedom technologies to advance human rights and open societies. OTF funds projects like Tor, Signal, and other privacy and circumvention tools that help individuals in repressive environments access a free and open internet.
+- [U S Agency For Global Media Plans Pricing](https://apis.io/plans/u-s-agency-for-global-media/u-s-agency-for-global-media-plans-pricing/)
 
-**Human URL:** [https://www.opentech.fund/](https://www.opentech.fund/)
+#### Rate limits (1)
 
-#### Tags:
+Published request limits.
 
- - Internet Freedom, Privacy, Security, Open Source
+- [U S Agency For Global Media Rate Limits](https://apis.io/rate-limits/u-s-agency-for-global-media/u-s-agency-for-global-media-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://www.opentech.fund/)
-- [Internet Freedom Resources](https://github.com/usagm/internet-freedom)
+What the API costs to run, by operation.
 
-## Common Properties
+- [U S Agency For Global Media Finops](https://apis.io/finops/u-s-agency-for-global-media/u-s-agency-for-global-media-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.usagm.gov/)
-- [About](https://www.usagm.gov/who-we-are/)
-- [GitHubOrganization](https://github.com/usagm)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/vocabulary/u-s-agency-for-global-media-vocabulary.yaml)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/json-ld/u-s-agency-for-global-media-context.jsonld)
+- [Blog](https://www.usagm.gov/feed/)
+- [GitHub](https://github.com/usagm)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Voice of America (VOA) | The largest U.S. international broadcaster, providing news and information in 47 languages to audiences in regions underserved by free press, including sub-Saharan Africa, Latin America, and Asia. |
-| Radio Free Europe/Radio Liberty (RFE/RL) | Broadcasts domestic news coverage to audiences in Central and Eastern Europe, Russia, the Caucasus, Central Asia, and the Middle East in 27 languages. |
-| Radio Free Asia (RFA) | Provides uncensored news and information in nine languages to audiences across East and Southeast Asia, including China, North Korea, Vietnam, and Burma. |
-| Middle East Broadcasting Networks (MBN) | Delivers Arabic-language television and digital content across the Middle East and North Africa, including Alhurra TV and Radio Sawa. |
-| Open Technology Fund (OTF) | Funds the development of open-source internet freedom tools and technologies that help individuals in repressive environments access a free and open internet. |
-| Internet Freedom Programs | Anti-censorship, circumvention, and digital safety programs supporting journalists, activists, and ordinary citizens operating in restricted environments. |
+**Kin Score 16.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 58.0 |
+| Contract quality | 14.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| International News Delivery | Delivering independent, accurate news and information to audiences in countries that lack a free press or face government-controlled media. |
-| Press Freedom Advocacy | Supporting journalists and media organizations operating in repressive environments by providing training, tools, and reporting support. |
-| Internet Circumvention | Enabling internet users in censored environments to bypass restrictions and access uncensored online content through funded circumvention tools. |
-| Digital Safety | Protecting journalists and activists with digital security tools and training through Open Technology Fund-supported projects. |
-| Media Development | Supporting the development of independent media ecosystems in transitioning democracies through training, technology, and partnerships. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Tor Project | OTF-funded privacy and anonymity network enabling secure communication for users in censored or surveilled environments. |
-| Signal | End-to-end encrypted messaging platform supported by OTF for secure communications by journalists and activists. |
-| Open Whisper Systems | Developer of Signal protocol providing encrypted messaging and calling for vulnerable populations worldwide. |
+**Regulatory alignment 16.7** — Government & Public Sector
 
-## Vocabulary
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/u-s-agency-for-global-media/](https://apis.io/providers/u-s-agency-for-global-media/).
 
-- [U.S. Agency for Global Media Vocabulary](vocabulary/u-s-agency-for-global-media-vocabulary.yaml) — Unified taxonomy mapping 5 resources, 5 actions, 1 workflow, and 4 personas across media, press freedom, and internet freedom domains
+## How this profile is made
 
-## JSON-LD
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [u-s-agency-for-global-media-context.jsonld](json-ld/u-s-agency-for-global-media-context.jsonld)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for U.S. Agency for Global Media: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/u-s-agency-for-global-media/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
